@@ -43,5 +43,7 @@ This code consists of the `openai` llm to do question answering. This does **not
 
 
 ### 4. `falcon.py`
-This code consists of the `falcon-7b-instruct` llm to do question answering. This does **not** consists of answering chunks with similar meaning or determining the k value of each chunks.
+This code consists of the `falcon-7b-instruct` llm to do question answering. This does **not** consists of answering chunks with similar meaning or determining the k value of each chunks. Here is the output picture:
+<img width="1344" alt="image" src="https://github.com/rahulsharma00/PDF-Question-Answering/assets/89294054/c2054476-c5d1-4e01-bb0f-763743c42be6">
+
 
