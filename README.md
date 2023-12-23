@@ -2,6 +2,7 @@
 AskYourPDF is a powerful Python application built with Streamlit and LangChain, designed to make PDF documents interactive and easily queryable. This project leverages LangChain's capabilities, including text splitting, embeddings, and vector stores, to enhance the user experience when working with PDFs. Whether you want to perform a similarity search, retrieve top-k chunks, or submit questions to language models like OpenAI or Falcon-7B, AskYourPDF streamlines the process with an intuitive and user-friendly interface.
 
 ### Note - You need OpenAI API and HuggingFace API to run this application
+Store them into a `.env` file
 
 ## How it works
 The application reads the PDF and splits the text into smaller chunks that can be then fed into a LLM. It uses OpenAI embeddings to create vector representations of the chunks. The application then finds the chunks that are semantically similar to the question that the user asked and feeds those chunks to the LLM to generate a response.
