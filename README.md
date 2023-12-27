@@ -5,9 +5,7 @@ AskYourPDF is a powerful Python application built with Streamlit and LangChain, 
 Store them into a `.env` file
 
 ## How it works
-The application reads the PDF and splits the text into smaller chunks that can be then fed into a LLM. It uses OpenAI embeddings to create vector representations of the chunks. The application then finds the chunks that are semantically similar to the question that the user asked and feeds those chunks to the LLM to generate a response.
-
-The application uses Streamlit to create the GUI and Langchain to deal with the LLM.
+Utilizing FAISS vector database, our application processes PDFs, creating vector representations of text chunks using OpenAI embeddings. These vectors are efficiently stored in FAISS, enabling quick retrieval of semantically similar chunks in response to user queries. The selected chunks are then input into a Language Model (LLM) for generating contextually relevant responses. The application uses Streamlit to create the GUI and Langchain to deal with the LLM.
 
 ## Usage
 To use the application, run the respective  `.py`  files with the streamlit CLI (after having installed streamlit):
